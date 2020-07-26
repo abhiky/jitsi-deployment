@@ -7,5 +7,5 @@ spec:
   tls:
   - hosts:
     # fill in host here
-    - jitsi.domainname
-    secretName: jitsi-messenger-schule-tls
+    - meetme.abhishekyathiraj.in
+    secretName: jitsi-messenger-abhishek-tls

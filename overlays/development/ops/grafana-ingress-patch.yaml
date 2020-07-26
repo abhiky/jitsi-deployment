@@ -8,10 +8,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - jitsi.dev.messenger.schule
-    secretName: jitsi-messenger-schule-tls
+    - meetme.abhishekyathiraj.in
+    secretName: jitsi-messenger-abhishek-tls
   rules:
-    - host: jitsi.dev.messenger.schule
+    - host: meetme.abhishekyathiraj.in
       http:
         paths:
         # only match /grafana and paths under /grafana/

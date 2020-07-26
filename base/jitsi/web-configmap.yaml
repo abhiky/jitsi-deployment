@@ -282,7 +282,7 @@ data:
     /* eslint-enable no-unused-vars, no-var, max-len */
 
   # source: https://github.com/jitsi/jitsi-meet/blob/master/config.js
-  # set default language to 'de'
+  # set default language to 'en'
   config.js: |
     /* eslint-disable no-unused-vars, no-var */
 
@@ -550,7 +550,7 @@ data:
         // disable1On1Mode: false,
 
         // Default language for the user interface.
-        defaultLanguage: 'de',
+        defaultLanguage: 'en',
 
         // If true all users without a token will be considered guests and all users
         // with token will be considered non-guests. Only guests will be allowed to
