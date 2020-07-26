@@ -1,9 +1,0 @@
-apiVersion: autoscaling/v2beta2
-kind: HorizontalPodAutoscaler
-metadata:
-  namespace: jitsi
-  name: jvb-hpa
-spec:
-  scaleTargetRef:
-    name: shard-1-jvb # needs to be manually set
-
