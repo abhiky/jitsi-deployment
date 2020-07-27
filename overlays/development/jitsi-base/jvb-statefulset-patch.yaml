@@ -9,11 +9,18 @@ spec:
       containers:
         - name: prometheus-exporter
           resources:
+            requests:
+              cpu: "100m"
+              memory: "100Mi"
+            limits:
+              cpu: "100m"
+              memory: "100Mi"
         - name: jvb
           resources:
             requests:
-              cpu: "1000m"
+              cpu: "1500m"
               memory: "1000Mi"
             limits:
-              cpu: "1000m"
-              memory: "1000M"
+              cpu: "1500m"
+              memory: "1000Mi"
+
