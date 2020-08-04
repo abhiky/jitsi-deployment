@@ -80,6 +80,6 @@ spec:
             - name: XMPP_MUC_DOMAIN
               value: muc.meet.jitsi
             - name: TZ
-              value: Europe/Berlin
+              value: Asia/Kolkata
             - name: JVB_TCP_HARVESTER_DISABLED
               value: "true"

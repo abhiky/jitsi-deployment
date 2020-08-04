@@ -59,7 +59,7 @@ spec:
                   name: jitsi-config
                   key: JICOFO_AUTH_PASSWORD
             - name: TZ
-              value: Europe/Berlin
+              value: Asia/Kolkata
             - name: JVB_BREWERY_MUC
               value: jvbbrewery
             - name: JICOFO_ENABLE_HEALTH_CHECKS
