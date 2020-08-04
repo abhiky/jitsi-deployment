@@ -4,3 +4,4 @@ bases:
 resources:
   - ops/
   - shard-0/
+  - shard-1/
