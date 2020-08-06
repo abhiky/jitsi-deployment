@@ -12,8 +12,8 @@ some tools needed to do this operation should be available on a developer machin
 
 ##### install wget and git
 ```
-git clone -b topic/ayathiraj/develop  https://github.com/abhiky/jitsi-deployment.git
 yum install -y git wget
+git clone -b topic/ayathiraj/develop  https://github.com/abhiky/jitsi-deployment.git
 ```
 ##### install kubectl
 ```
